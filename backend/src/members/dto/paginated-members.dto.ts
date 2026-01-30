@@ -16,4 +16,7 @@ export class PaginatedMembersDto {
 
   @ApiProperty({ example: 2500 })
   totalPages: number;
+
+  @ApiProperty({ example: '2 days, 3 hours, 45 minutes' })
+  totalExerciseTime: string;
 }
